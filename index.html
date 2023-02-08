@@ -25,7 +25,7 @@
   </head>
 
   <body class="body">
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo link"
@@ -53,8 +53,91 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu-open" data-menu-open>
+          <svg class="menu-open-icon" width="32" height="22">
+            <use href=".//images/symbol-defs-opt.svg#icon-menu-open"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container">
+          <div class="beginning-mob-menu">
+            <button type="button" class="mob-menu-btn" data-menu-close>
+              <svg viewBox="0 0 32 32" width="8" height="8">
+                <use href="./images/symbol-defs-opt.svg#icon-modal-close"></use>
+              </svg>
+            </button>
+            <nav>
+              <ul class="mob-menu-list list">
+                <li>
+                  <a href="./index.html" class="mob-menu-link link">Studio</a>
+                </li>
+                <li>
+                  <a href="./portfolio.html" class="mob-menu-link link"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="mob-menu-link link current">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="end-mob-menu">
+            <ul class="mob-menu-contacts list">
+              <li class="mob-menu-contacts-tel">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mob-menu-contacts-item link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-menu-contacts-email">
+                <a href="tel:+110001111111" class="mob-menu-contacts-item link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-menu-social-list list">
+              <li class="mob-menu-social-list-item">
+                <a href="" class="mob-menu-social-list-link">
+                  <svg class="mob-menu-social-list-icon" width="16" height="16">
+                    <use
+                      href=".//images/symbol-defs-opt.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-social-list-item">
+                <a href="" class="mob-menu-social-list-link">
+                  <svg class="mob-menu-social-list-icon" width="16" height="16">
+                    <use href="./images/symbol-defs-opt.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-social-list-item">
+                <a href="" class="mob-menu-social-list-link">
+                  <svg class="mob-menu-social-list-icon" width="16" height="16">
+                    <use
+                      href=".//images/symbol-defs-opt.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-social-list-item">
+                <a href="" class="mob-menu-social-list-link">
+                  <svg class="mob-menu-social-list-icon" width="16" height="16">
+                    <use
+                      href=".//images/symbol-defs-opt.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <main>
       <section class="hero">
@@ -148,6 +231,7 @@
           <ul class="offer-picture">
             <li class="offer-list list">
               <img
+                srcset="./images/pic-1.jpg 1x, ./images/pic-1-2x.jpg 2x"
                 src="./images/pic-1.jpg"
                 alt="A computer"
                 width="360"
@@ -156,6 +240,7 @@
             </li>
             <li class="offer-list list">
               <img
+                srcset="./images/pic-2.jpg 1x, ./images/pic-2-2x.jpg 2x"
                 src="./images/pic-2.jpg"
                 alt="A mobile phone"
                 width="360"
@@ -164,6 +249,7 @@
             </li>
             <li class="offer-list list">
               <img
+                srcset="./images/pic-3.jpg 1x, ./images/pic-3-2x.jpg 2x"
                 src="./images/pic-3.jpg"
                 alt="A computer and a mobile phone"
                 width="360"
@@ -180,6 +266,10 @@
           <ul class="team-list list">
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-foto-1.jpg    1x,
+                  ./images/team-foto-1-2x.jpg 2x
+                "
                 src="./images/team-foto-1.jpg"
                 alt="A foto of a member from our team - Mark Guerrero"
                 width="264"
@@ -230,6 +320,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-foto-2.jpg    1x,
+                  ./images/team-foto-2-2x.jpg 2x
+                "
                 src="./images/team-foto-2.jpg"
                 alt="A foto of a member from our team - Tom Ford"
                 width="264"
@@ -280,6 +374,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-foto-3.jpg    1x,
+                  ./images/team-foto-3-2x.jpg 2x
+                "
                 src="./images/team-foto-3.jpg"
                 alt="A foto of a member from our team - Camila Garcia"
                 width="264"
@@ -330,6 +428,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-foto-4.jpg    1x,
+                  ./images/team-foto-4-2x.jpg 2x
+                "
                 src="./images/team-foto-4.jpg"
                 alt="A foto of a member from our team - Daniel Wilson"
                 width="264"
@@ -503,7 +605,7 @@
       </div>
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg viewBox="0 0 32 32" width="8" height="8">
@@ -584,8 +686,9 @@
           <button type="submit" class="btn-submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

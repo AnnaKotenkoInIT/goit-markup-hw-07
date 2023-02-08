@@ -3,6 +3,9 @@
     width: 426px;
   }
   /* --------- Header ----------*/
+  .mob-menu-social-list {
+    gap: 56px;
+  }
 
   /* --------- Hero ----------*/
   .hero-title {
