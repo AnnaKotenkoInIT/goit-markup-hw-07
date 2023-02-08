@@ -1,0 +1,137 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  /* --------- Header ----------*/
+
+  /* --------- Hero ----------*/
+  .hero {
+    height: 600px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-im-des.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* --------- Values ----------*/
+  .values {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .values-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .values-block {
+    width: 264px;
+  }
+
+  .values-icons {
+    width: 100%;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .values-item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.02;
+  }
+
+  .values-item-text {
+    font-weight: 400;
+  }
+
+  /* --------- What are we doing ----------*/
+  .offer {
+    display: block;
+    background-color: var(--main-background-color);
+    padding-bottom: 120px;
+  }
+
+  .offer-title {
+    margin-bottom: 72px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+  }
+
+  .offer-picture {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* --------- Our team ----------*/
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* --------- Customers ----------*/
+
+  .customer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* --------- Footer ----------*/
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-text-container {
+    margin-right: 120px;
+    margin-left: 0px;
+  }
+
+  .footer-soc-med {
+    margin-right: 80px;
+  }
+
+  /* .footer-soc-med > .footer-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+  } */
+
+  .subscribe-form-box {
+    margin-left: 0px;
+  }
+
+  .subscribe-form {
+    display: flex;
+  }
+
+  .subscribe-label {
+    margin-right: 24px;
+  }
+
+  .btn-subscribe {
+    display: flex;
+    width: 164px;
+  }
+
+  /* --------- Backdrop  ----------*/
+}

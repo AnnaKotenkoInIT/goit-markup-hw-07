@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 426px;
+  }
+  /* --------- Header ----------*/
+
+  /* --------- Hero ----------*/
+  .hero-title {
+    width: 319px;
+  }
+
+  /* --------- Values ----------*/
+  .values-block {
+    width: 396px;
+  }
+
+  /* --------- What are we doing ----------*/
+
+  /* --------- Our team ----------*/
+
+  /* --------- Customers ----------*/
+
+  /* --------- Footer ----------*/
+  .subscribe-input {
+    width: 396px;
+  }
+
+  /* --------- Backdrop  ----------*/
+}

@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+  /* --------- Header ----------*/
+
+  /* --------- Hero ----------*/
+  .hero {
+    height: 436px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-im-tab.jpg);
+    padding-bottom: 108px;
+  }
+
+  .hero-title {
+    width: 496px;
+    margin-bottom: 40px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  /* --------- Values ----------*/
+
+  .values-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .values-block {
+    width: 356px;
+  }
+
+  /* --------- What are we doing ----------*/
+
+  /* --------- Our team ----------*/
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  /* --------- Customers ----------*/
+  .customer-list {
+    gap: 24px;
+  }
+
+  .customer-item {
+    width: 168px;
+  }
+
+  /* --------- Footer ----------*/
+  .footer-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+  }
+
+  .footer-text-container {
+    margin-right: 24px;
+    margin-left: 93px;
+  }
+
+  .subscribe-form-box {
+    margin-left: 93px;
+  }
+
+  .subscribe-label {
+    margin-right: 24px;
+  }
+
+  .subscribe-input {
+    width: 264px;
+    margin-bottom: 0;
+  }
+
+  /* --------- Backdrop  ----------*/
+}
