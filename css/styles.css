@@ -169,20 +169,26 @@ img {
   display: block;
 }
 
-.mob-menu-contacts-tel {
+.mob-menu-contacts-email {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
-  color: #4d5ae5;
   margin-bottom: 40px;
 }
 
-.mob-menu-contacts-email {
+.mob-menu-contacts-email > .mob-menu-contacts-item {
+  color: #4d5ae5;
+}
+
+.mob-menu-contacts-tel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #434455;
   margin-bottom: 48px;
+}
+
+.mob-menu-contacts-tel > .mob-menu-contacts-item {
+  color: #434455;
 }
 
 .mob-menu-social-list {
